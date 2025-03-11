@@ -1,0 +1,130 @@
+# INPUT AND OUTPUT
+
+#fname="adam" #this is a hardcoded value
+#print("hello", 5, fname)
+#fname=input("whats your name?")
+#print(fname, "is this correct?") 
+#print(fname + " " +"is a stupid name. Go away.")
+#n=int(input("n="))
+#p=int(input("p="))
+#j=float(input("j="))
+#print(n+p+j)
+
+
+
+#fname="Adam"
+#lname="Smith"
+#print("hello %s %s" % (fname,lname,))  #%s means "take the specified variable and put it here"
+#the s stands for string, and this function only works for strings
+
+#now lets try adding age
+
+# fname="Adam"
+# lname="Smith"
+# age=902
+# #print("hello %s %s[%10d]" % (fname,lname,age))
+# #this will make ten spaces before the d-value
+
+# print("hello %s [%-15s][%-10d]" % (fname,lname,age))
+# #this makes that number of spaces after the value
+
+# # gpa=3.9
+# # print("your gpa is [%10.3f]" % (gpa))
+# # #the .3f means to put 3 decimal spots, and the 3 spots are included in the 10 digits
+# # #the square brackets arent necessary, theryre just meant to show the spaces
+# use command + / to make everything a comment
+# name=input("what is your name")
+# print("%s will die tomorrow" %(name))
+
+###############
+# COMPOUND SENTENCES, OR HOW TO MAKE 200 STUDENTS QUIT A COURSE IN 20 MINS
+# age=int(input("What is your age?"))
+
+# if age>= 18: 
+#     print(age)
+#     print("positive")
+#     print("You have been drafted. Time to invade other country and find oil.")
+# else:
+#      print("too young")
+#      print("Grow up fast so we can draft you and find oil.")
+# if age==69:
+#     print("nice")     
+
+#these are indentations. Use tab.
+
+#if (age<=17): 
+  #  print("too young")
+   # print("Grow up fast so we can draft you and find oil.")
+
+######### 
+#      RELATIONAL OPERATIONS
+
+# Some quick math notation:
+
+# = becomes == in Python.
+# >=
+# <= the = sign always goes last
+# != means is not equal
+
+
+
+# Assignment "=" make something true. Equality "==" checks if something is true. Very different things.
+
+
+from math import sqrt
+
+# r=sqrt(2)
+
+# print(r)
+# print (r**2)
+#notice the roundoff error. 
+
+# fname=input("f name:")
+# lname=input("l name:")
+
+# if fname.lower()==lname.lower():
+#     print("the same")
+# else:
+#     print("not")
+
+# print(fname, lname)
+#remember, it's all case-sensitive, so we convert the strings to lowercase when comparing them with ==
+
+
+
+
+# Time to go learn NESTED BRANCHES
+# You can put an if statement inside a branch of another if statement
+
+
+# drink=input("what is your order?")
+# if drink.lower()=="wine":
+#     age= int(input("How old are you?"))
+#     if age >=21:
+#         print("serve wine")
+#     else:
+#         print("go home")
+# else:
+#     print("non-alcoholic drink")
+
+
+#######
+
+#Muliple Alternatives
+#Sometimes we have many branches. Let's use the Richter scale as practice.
+
+scale=float(input("enter scale"))
+if scale >=8:
+    print("most buildinghs destroyed")
+elif scale>=7:
+    print("many buildinghs destoyed")
+elif scale>=6:
+    print("many buildinghs destoyed")
+elif scale>=5:
+    print("some buildinghs destoyed")
+elif scale>=4:
+    print("few buildinghs destoyed")
+else:
+    print("no damage")
+print("end")
+

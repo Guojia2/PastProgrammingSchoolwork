@@ -1,0 +1,5 @@
+id, name, date, store, groceries, clothes, gas,payment
+1, Alice , 2023-1-21, Costco, 320,20,50,cash
+2, Bob, 2023-2-23, Costco, 20, 220, 50, cash
+3, Carlos, 2023-2-24, Superstore,
+

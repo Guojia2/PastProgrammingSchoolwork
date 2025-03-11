@@ -1,0 +1,5 @@
+ID: name, gpa, grade
+100 : Alice, 4 ,99
+101: Bob, 3 ,98
+102: Carol, 4, 97
+103: Dan, 3, 98

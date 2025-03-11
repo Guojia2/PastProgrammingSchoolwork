@@ -1,0 +1,29 @@
+answer1 = 5+3
+answer2 = 7*4
+print("answer1")
+print(answer1)
+
+numberOfSkateboards=10
+numberOfScooters=7
+
+COST_SKATEBOARD=90.00
+COST_SCOOTER=85.75
+subtotalPrice= (COST_SCOOTER*numberOfScooters+COST_SKATEBOARD*numberOfSkateboards)
+#subtotalPrice is the pre=tax price of the purchase
+totalPrice= (subtotalPrice+0.1*subtotalPrice)
+print("The total cost of this purchase is:",totalPrice)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
