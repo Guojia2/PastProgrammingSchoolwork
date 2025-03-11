@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/guoji/Desktop/CS 2211/Assignment3/sorting'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x10000326C, symSize: 0x3C }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x0, symBinAddr: 0x10000326C, symSize: 0x3C }
+  - { offset: 0x81, size: 0x8, addend: 0x0, symName: _Partition, symObjAddr: 0x3C, symBinAddr: 0x1000032A8, symSize: 0xEC }
+  - { offset: 0xFD, size: 0x8, addend: 0x0, symName: _BubbleSort, symObjAddr: 0x128, symBinAddr: 0x100003394, symSize: 0xF8 }
+  - { offset: 0x167, size: 0x8, addend: 0x0, symName: _QuickSort, symObjAddr: 0x220, symBinAddr: 0x10000348C, symSize: 0x80 }
+  - { offset: 0x1C3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2A0, symBinAddr: 0x10000350C, symSize: 0x7AC }
+...
