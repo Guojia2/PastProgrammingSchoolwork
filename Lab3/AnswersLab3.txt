@@ -1,0 +1,85 @@
+Answers for Lab 3
+-----------------------------------------------
+
+EXERCISE 1
+
+1. Looking at PrimNonPrim.java (without running it), answer these questions:
+
+-What is the variable type of num1? Is this primitive or non-primitive?
+	num1 is an int, which is primitive.
+	
+-What is the variable type of num2? Is this primitive or non-primitive?
+	num2 is an Integer object, which is non-primitive.
+
+-Can we invoke (call) methods on primitive variables?
+		no we cannot.
+-What is the default value of an int (i.e. a non-initialized cell in an int array)?
+	integers are set to 0 by default.
+-What is the default value of an Integer (i.e. a non-initialized cell in an Integer array)?
+	- 
+-Do you think a == b is a true statement?
+	no, because they are not the same type of object
+-Do you think c == d is a true statement?
+	No, because they are non-primitive types and they do not share the same location in memory.
+-Do you think c.equals(d) is a true statement?
+
+	I assume the .equals() method compares the value of the variables, so yes.
+
+2. What happens when you try to call a.equals(b)? Why is this happening?
+	
+
+	- code does not compile because the method cannot be called on primitive types
+
+3. This question refers to variables data1 and data2 in class TestDataTypes. For each one of the following statements indicate whether the comparison will return the value true or false
+
+data1 == data2: true or false?
+ - false, because this is a deep copy and not a shallow copy
+
+data1.intVar == data2.intVar: true or false?
+
+- true
+
+data1.charVar == data2.charVar: true or false?
+- true
+data1.boolVar == data2.boolVar: true or false?
+
+True
+
+data1.doubleVar == data2.doubleVar: true or false?
+
+
+- 	true
+
+
+data1.varA == data2.varA: true or false?
+	true
+data1.varA.numItems == data2.varA.numItems: true or false?
+	true
+data1.varA.arrItems == data2.varA.arrItems: true or false?
+	true
+
+
+
+4. How many of your answers to question 1 were incorrect? 
+		1
+
+	
+5. Why was the result of the last comparison true, even though arrays are non-primitive types?
+
+	- because it was comparing the items in the array rather than the location in memory
+
+
+EXERCISE 3
+
+6. What values were printed out for obj1.x and obj1.y, and obj2.x and obj2.y? Why do you think is happening?
+	10
+30
+20
+30
+ Y is a static variable, so its value is the same for all objects of the class to which y belongs.
+
+
+7. What do you expect counter to equal? What value is it showing? Why do you think this is happening?
+
+
+  I thought the counter would be equal to the number of objects produced, but this is incorrect. The variable "counter" only increments when the constructor is called, not when an object is created. This means that, if a constructor is called one time to produce 20 objects, the variable 'counter" will only increment once.
