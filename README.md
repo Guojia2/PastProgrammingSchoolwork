@@ -1,1 +1,1 @@
-This is past schoolwork I have done as a computer science student. 
+This is past schoolwork I have done as a computer science student. This repo is far from exhaustive, as some of my programming assignments require dependencies or confidential datasets that I cannot share.
